@@ -1,0 +1,122 @@
+/* Add layouts here */
+
+/*
+Layout 1
+.links li{
+  display: inline;
+}
+
+.navigation {
+display: flex;
+justify-content: flex-end;
+}
+*/
+/*
+Layout 2
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.links {
+  display: flex;
+  justify-content: right;
+  position: relative;
+  left: 1020px;
+}
+.links li{
+  position: relative;
+  right: 200px;
+}
+*/
+/*
+Layout 3
+body{
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+header{
+  order: 0;
+  flex: 1 100%;
+  text-align: center;
+}
+
+main{
+  order: 1;
+  flex: 2;
+  text-align: center;
+}
+
+.navigation{
+  order: 0;
+  flex: 1;
+}
+
+.links{
+  order: 2;
+  flex: 1;
+}
+
+.middle{
+  display: flex;
+  order: 2;
+  flex-direction: row;
+}
+
+footer{
+  order: 1;
+  flex: 1 100%;
+  text-align:center;
+}
+*/
+
+body{
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+
+header{
+    order: 0;
+    flex: 1 100%;
+    text-align: center;
+}
+
+main{
+    order: 1;
+    flex: 2;
+    text-align: center;
+}
+
+.navigation{
+    order: 0;
+    flex: 1;
+}
+
+.links{
+    order: 2;
+    flex: 1;
+}
+
+.middle{
+    display: flex;
+    order: 2;
+    flex-direction: row;
+}
+
+footer{
+    order: 4;
+    flex: 1 100%;
+    text-align:center;
+}
+
+p:nth-child(3) {
+    float: left;
+    background-color: aliceblue;
+    font-weight: bold;
+    font-style: oblique;
+    margin: 15px 31px 24px 0px;
+    width: 150px;
+}

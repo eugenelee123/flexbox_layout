@@ -1,0 +1,67 @@
+/* Add layouts here */
+
+/*
+Layout 1
+.links li{
+  display: inline;
+}
+
+.navigation {
+display: flex;
+justify-content: flex-end;
+}
+*/
+
+/*Layout 2
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.links {
+  display: flex;
+  justify-content: right;
+  position: relative;
+  left: 1020px;
+}
+.links li{
+  position: relative;
+  right: 200px;
+}
+*/
+
+body{
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  background-color: red;
+}
+
+header{
+  order: 0;
+  flex: 1 100%;
+  text-align: center;
+}
+
+main{
+  order: 3;
+  flex: 2;
+  text-align: center;
+}
+
+.navigation{
+  order: 2;
+  flex: 1;
+}
+
+.links{
+  order: 4;
+  flex: 1;
+}
+
+footer{
+  order: 1;
+  flex: 1 100%;
+  text-align:center;
+}
+*/
